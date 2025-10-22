@@ -1,0 +1,48 @@
+html, body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default margin and padding */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif; /* Set a clean, modern font stack */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering */
+  -moz-osx-font-smoothing: grayscale; 
+  background-color: #282c34; /* Dark background color */
+  color: white; /* Ensure text is white for contrast */
+}
+
+#root {
+  max-width: 1280px; /* Limit max width */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text */
+  
+}
+.app-container {
+  min-height: 100vh; /* Ensure it takes full viewport height */
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Align items to the top */
+  flex-direction: column; /* Stack items vertically */
+  background-color:#0068D7; /* Updated background color */
+  border: 5px solid #11007e; /* Added border */
+  padding: 2rem; /* Added padding for better spacing */
+  color: white; /* Ensure text is white for contrast */
+
+}
+
+button {
+  padding: 10px 20px; /* Increased padding for better click area */
+  font-size: 16px; /* Increased font size for readability */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #61dafb;  /* Button background color */
+  border: none; /* Removed default border */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 20px; /* Space above button */
+}
+
+button:hover {
+  background-color: #21a1f1; /* Darker blue on hover */
+}
+.card-info {
+  margin-top: 20px; /* Space above card info */
+
+}

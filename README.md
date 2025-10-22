@@ -55,7 +55,7 @@ GIF created with ...
 
 ## Notes
 
-The challenge was using API. It takes me to figure out of how it works and what it does with asynce/wait function.
+The challenge was using the API. It takes me to figure out how it works and what it does with the async/wait function.
 
 ## License
 
