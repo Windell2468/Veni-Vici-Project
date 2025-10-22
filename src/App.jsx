@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     async function initialFetch() {
       try {
-        const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Dark Magician') // Fetch all cards
+        const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php') // Fetch all cards
         const data = await response.json() // Parse JSON
         setAllCards(data.data) // Store the full list of cards
         setIsLoading(false) // Set loading to false once data is fetched
