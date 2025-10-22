@@ -2,7 +2,7 @@
 
 Submitted by: **Jerry Rogers Jr.**
 
-This web app: **is abou using API for Yu-Gi-oh Cards Info. It fetches random Yu-Gi-Oh Cards with ATK points, DEF points, Type, Levels, and Attribute. **
+This web app: **uses the API for Yu-Gi-Oh card info. Each Yu-Gi-Oh card provides detailed information about Duel Monsters, including ATK points, DEF points, Type, Levels, and Attribute. This app fetches a random card using the API and interactive interface, allowing users to explore different types of Yu-Gi-Oh cards and their stats.**
 
 Time spent: **8** hours spent in total
 
